@@ -1,0 +1,185 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.container{
+	width: 100%;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+}
+/*This is the title*/
+.title{
+	width: 80%;
+	margin:auto;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	background-color: rgba(148,0,211,0.9);
+	color: white;
+}
+.title h1{
+	font-family: sans-serif;
+	text-align: center;
+	margin: auto;
+}
+#game-area{
+	width: 80%;
+	height: 600px;
+	background-color: #8abaae;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+}
+/*This is the form section*/
+#rounds{
+	width: 60%;
+	height: 40px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	border-bottom: 2px solid white;
+}
+label{
+	font-weight: bold;
+	font-family: monospace;
+	font-size: 12px;
+	margin: 10px 0;
+}
+#bestOf{
+	width: 60px;
+	height: 25px;
+	margin: 5px 10px;
+	border-radius: 10px;
+	outline: none;
+	border: 1px solid grey;
+	text-align: center;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  	-webkit-appearance: none;
+  	margin: 0;
+}
+#reset{
+	width: 60px;
+	height: 25px;
+	margin: 6px 0;
+	color: white;
+	font-family: sans-serif;
+	outline: none;
+	border: 1px solid grey;
+	text-align: center;
+	background-color: green;
+	border-radius: 10px;
+	font-weight: bold;
+}
+#reset:hover{
+	cursor: pointer;
+	background-color: orange;
+	color: black;
+}
+/*This is the game container*/
+.score-board{
+	width: 60%;
+	height: 50px;
+	margin: 5px auto;
+	display: flex;
+	flex-direction: row;
+}
+.player-score{
+	width: 50%;
+	height: 50px;
+	text-align: center;
+}
+.score-board p{
+	padding: 5px;
+}
+.computer-score{
+	width: 50%;
+	height: 50px;
+	text-align: center;
+}
+h2{
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 5px;
+	color: rgb(236, 236, 236);
+}
+p{
+	font-weight: bold; 
+}
+.game-play{
+	width: 100%;
+	height: 400px;
+	margin: 0 auto;
+	background-color: #8abaae;
+}
+/*h2 for choose option section*/
+.winner{
+	position: relative;
+	top: 30px;
+	text-align: center;
+}
+.hands{
+	width: 60%;
+	height: 150px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: auto;
+}
+#player-hand,#computer-hand{
+	width: 15%;
+	height: initial;
+	margin: auto;
+}
+/*rotate the player hand to point right*/
+#player-hand{
+	transform: rotateY(180deg);
+}
+.options{
+	width: 45%;
+	height: 60px;
+	margin: 10px auto 0;
+	display: flex;
+	flex-direction:row;
+	justify-content: space-around;
+}
+.paper, .rock, .scissors{
+	width: 70px;
+	height: 30px;
+	outline: none;
+	border: 1px solid grey;
+	font-weight: bold;
+	border-radius: 10px;
+	background-color: green;
+	color: white;
+	margin: auto;
+}
+.rock{
+	text-align: center;
+}
+.scissors{
+	
+}
+.paper{
+	
+}
+.rock:hover{
+	cursor: pointer;
+	background-color: #9932CC;
+	color: white;
+}
+.scissors:hover{
+	cursor: pointer;
+	background-color: #9932CC;
+	color: white;
+}
+.paper:hover{
+	cursor: pointer;
+	background-color: #9932CC;
+	color: white;
+}
