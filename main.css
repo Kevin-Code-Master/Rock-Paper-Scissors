@@ -159,15 +159,6 @@ p{
 	color: white;
 	margin: auto;
 }
-.rock{
-	text-align: center;
-}
-.scissors{
-	
-}
-.paper{
-	
-}
 .rock:hover{
 	cursor: pointer;
 	background-color: #9932CC;
@@ -182,4 +173,7 @@ p{
 	cursor: pointer;
 	background-color: #9932CC;
 	color: white;
+}
+.fa{
+	transform: rotateZ(90deg);
 }
