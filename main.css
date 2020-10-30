@@ -176,4 +176,27 @@ p{
 }
 .fa{
 	transform: rotateZ(90deg);
+	animation-name: twinkle;
+	animation-iteration-count: infinite;
+	animation-duration: 5s;
+	font-weight: bolder;
+}
+@keyframes twinkle{
+	0%{
+		color: red;
+	}
+	25%{
+		color: pink;
+		transform: scaleX(1.6);
+	}
+	50%{
+		color: orange;
+		transform: scaleX(-1.6);
+	}
+	75%{
+		color: white;
+	}
+	100%{
+		color: red;
+	}
 }
