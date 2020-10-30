@@ -187,11 +187,11 @@ p{
 	}
 	25%{
 		color: pink;
-		transform: scaleX(1.6);
+		transform: scaleX(-1.6);
 	}
 	50%{
 		color: orange;
-		transform: scaleX(-1.6);
+		transform: scaleX(1.6);
 	}
 	75%{
 		color: white;
